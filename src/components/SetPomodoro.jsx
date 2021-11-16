@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react'
 import { SettingsContext } from '../context/SettingsContext'
-import Button from './Button'
 
 const SetPomodoro = () => {
     const [newTimer, setNewTimer] = useState({
