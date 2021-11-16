@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    border: transparent;
+    background: rgb(18,18,122);
+    background: radial-gradient(circle, rgba(18,18,122,1) 14%, rgba(1,1,31,1) 85%);
+    position: relative;
+}
+
+h1 {
+    border: transparent;
+    margin: 0px 0px 0px 0px 
+}
+
+.form-container {
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10em;
+    border: transaparent green;
+    color: white;
+    top: 100px;
+}
+
+.input {
+    border: transparent;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 2em;
+    padding: 1.5em;
+    width: 3em;
+    height: 3em; 
+    background-color: black;
+    color: white;
+}
+
+input:focus {
+    color:rgb(25, 35, 172);
+    outline: none; /* borde cuando es seleccionado*/
+}
+input::selection {
+    color: rgb(25, 35, 172);
+    background-color: white; /* Fondo de texto cuando es seleccionado*/
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+button {
+    border: transparent;
+    /*border-radius: 30%;*/
+    width: 8em;
+    height: 1.5em;
+    margin-top: .5em;
+    padding: 1em 1em 2em 1em ;
+    color: white;
+    background: black;
+}
+
+.timer-container {
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .time-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 7.5rem;
+    color:#efefef;
+    background: #151932;
+    font-size: 3.5rem;
+    box-shadow: 1rem 1.5rem 2rem rgba(0,0,0,0.6)
+  }
